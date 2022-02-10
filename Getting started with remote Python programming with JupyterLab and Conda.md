@@ -12,7 +12,7 @@ Open the terminal and connect to the lab's server with your user through ssh:
 ssh username@132.68.111.84
 ```
 
-<img src="uploads/58ed04fb41df933c723250b509ba6df9/conda.png" width="40%" height="40%">
+<img src="misc/images/conda.png" width="40%" height="40%">
 
 
 Conda is an open-source package management system and environment management system that runs on Windows, macOS, and Linux.
@@ -76,7 +76,7 @@ To check what Conda environments you have and which is active, run:
 conda env list
 ```
 
-<img src="uploads/8abdf42920d4702f956289e9813e4512/jupyterlab.png" width="40%" height="40%">
+<img src="misc/images/jupyterlab.png" width="40%" height="40%">
 
 JupyterLab is an open-source web application primarily designed to provide a user interface based on Jupyter Notebook.
 
