@@ -1,3 +1,5 @@
+Getting started with remote Python programming with JupyterLab and Conda
+=================
 
 The following tutorial will walk you through the preparations you need to make to work with Python on the linux server of our lab using Conda and the JupyterLab IDE.
 Let's get started  :hatching_chick:
