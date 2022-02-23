@@ -32,12 +32,12 @@ mkdir miniconda_installation
 Move to the miniconda installation directory:
 
 ```
-cd miniconda _installation
+cd miniconda_installation
 ```
 
 Run the following line to download the miniconda installation:
 ```
-curl -O <https://repo.anaconda.com/miniconda/Miniconda3-py39_4.10.3-Linux-x86_64.sh>
+curl -O "https://repo.anaconda.com/miniconda/Miniconda3-py39_4.10.3-Linux-x86_64.sh"
 ```
 
 After the download is finished, run the installation:
