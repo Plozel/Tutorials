@@ -159,7 +159,8 @@ Some of LSP features:
 conda install -c conda-forge 'jupyterlab>=3.0.0,<4.0.0a0' jupyterlab-lsp
 ```
 ```
-conda install -c conda-forge python-lsp-server r-languageserver
+pip install 'python-lsp-server[all]'
+R -e 'install.packages("languageserver")'
 ```
 
 Almost finished! Now all we have to do to activate the Jupyter server on our remote host, so it will be accessible from our local environment (your personal computer).
