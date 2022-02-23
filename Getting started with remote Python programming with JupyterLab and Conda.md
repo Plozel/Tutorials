@@ -46,6 +46,11 @@ After the download is finished, run the installation:
 bash Miniconda3-py39_4.10.3-Linux-x86_64.sh
 ```
 
+Finally, add miniconda path to the server system, so the conda commend would be recognized: 
+  
+ ```
+ export PATH=~/miniconda3/bin:$PATH
+ ```
 Great job! :100: You have the Conda package manager installed. :snake:
 
 Now, let's create our first conda environment.
