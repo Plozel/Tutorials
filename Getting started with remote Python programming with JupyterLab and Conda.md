@@ -50,6 +50,7 @@ Finally, add miniconda path to the server system, so the conda commend would be 
   
  ```
  export PATH=~/miniconda3/bin:$PATH
+ source .bashrc
  ```
 Great job! :100: You have the Conda package manager installed. :snake:
 
