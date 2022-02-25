@@ -102,16 +102,31 @@ git log
 
 Put files you don't want to be tracked in the `.gitignore` file.
   
-# Branches
+## Branching
+  
+Branching means you diverge from the main line of development and continue to do work without messing with that main line.
+
+We can then add new (experimental, unfinished, and potentially buggy) features in separate branches without touching the 'official' version of the code (which is usually kept on the master branch).  
+  
+#### <ins> Creating a New Branch: <ins />
 
 ```
 git branch oren_branch
 ```
-
+  
+#### <ins> Switching Branches <ins />
+To switch to an existing branch, you run the git checkout command. Let’s switch to the new testing branch:
 ```
 git checkout oren_branch
 ```
 
+#### <ins> Merging branches <ins />
+
+When you want to implement the changes you made to an individual branch to another branch, you can merge branches.
+
+Once you have fully implemented and tested a new feature in your code, you should merge it into the stable branch of your project (which is usually the master branch).
+
+To merge the changes from a different branch into your current branch, you can use this command:
 ```
 git merge oren_branch
 ```
