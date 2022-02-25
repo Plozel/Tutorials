@@ -1,41 +1,51 @@
-# Git
 
-Git is a version control system used by developers around the world. 
+<img src="misc/images/git.png" width="40%" height="40%">
+
+Git is a version control system used by developers around the world.  <br>
 It allows us to manage projects, track changes to files, and go back to a specific version of those files, at any point in time.
 
-# Varifying Git is installed
+## Setup
+#### <ins> Varifying Git is installed: <ins />
 
 ```
 git --version
 ```
 
-If it returns details about your Git version, then everything is ok :)
-If not, you probably should install Git.
+All is well if it returns details about your Git version.
+Otherwise, you probably need to install Git.
 
-# Configuring Name & Email
+#### <ins> Configuring Name & Email <ins />
 
-Our email and user name serve as identifiers to let git know who has made what changes.
+Git uses our email and user name as identifiers to keep track of who has made what changes.
 
 ```
 git config --global user.name "Your Name"
 git config --global user.email "Your Email"
 ```
 
-# Repositories
+## Repositories
 
 A repository is a container for a project that is tracked by Git.
+  
+You typically obtain a Git repository in one of two ways: <br>
+* You can take a local directory that is currently not under version control, and turn it into a Git repository, or <br>
+* You can clone an existing Git repository from elsewhere.
+  
+In either case, you end up with a Git repository on your local machine, ready for work. <br>
+  
+<ins> Initializing a Repository in an Existing Directory <ins />
 
-* Local repository -
-
-* Remote repository -
-
-Everytime you want to use git on a project you'll need to initalize a repository.
-
+If you have a project directory that is currently not under version control and you want to start controlling it with Git, you first need to go to that project’s directory.
 ```
 cd your_proj_directory
 git init
 ```
+  
+This creates a new hidden subdirectory named .git that contains all of your necessary repository files — a Git repository skeleton. At this point, nothing in your project is tracked yet.
 
+## Staging and committing code
+  
+The git commit command creates a commit, which is like a snapshot of your repository. Commits should be made often, based on logical units of change. Over time, commits should tell a story about the history of your repository and how it came to be the way it is now. In addition to the content and message, commits include a lot of metadata, such as the author and timestamp. 
 ```
 git status
 ```
@@ -91,8 +101,7 @@ git checkout oren_branch
 git merge oren_branch
 ```
 
-
-# GitHub
+<img src="misc/images/github.png" width="40%" height="40%">
 
 Github let us share our repositories with others, make colabrations and publish our work online.
 
