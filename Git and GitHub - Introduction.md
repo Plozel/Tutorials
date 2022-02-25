@@ -4,6 +4,14 @@
 Git is a version control system used by developers around the world.  <br>
 It allows us to manage projects, track changes to files, and go back to a specific version of those files, at any point in time.
 
+## Common Git workflow
+
+* Initial a repository
+* Create branches
+* Edit files
+* Add and commit changes
+* Merge sub-branch into the main branch.
+
 ## Setup
 #### <ins> Varifying Git is installed: <ins />
 
@@ -131,11 +139,26 @@ To merge the changes from a different branch into your current branch, you can u
 git merge oren_branch
 ```
 
+#### <ins> Deleting branches: <ins />
+
+```
+git branch -d oren_branch
+```
+
 <img src="misc/images/github.png" width="40%" height="40%">
 
-Github let us share our repositories with others, make colabrations and publish our work online.
+GitHub is a hosting platform for Git repositories that let us share our repositories with others, make colabrations and publish our work online.
 
-# Creating a new GitHub repository
+## Common GitHub workflow
+
+* Initial a repository
+* Create branches
+* Edit files
+* Add and commit changes
+* Push local branch to the remote github repository
+* Merge sub-branch into the main branch locally/remotely.
+
+## Creating a new GitHub repository
 
 
 
