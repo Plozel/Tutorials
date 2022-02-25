@@ -6,7 +6,7 @@ It allows us to manage projects, track changes to files, and go back to a specif
 
 ## Common Git workflow
 
-* Initial a repository
+* Initialize a repository
 * Create branches
 * Edit files
 * Add and commit changes
@@ -157,8 +157,5 @@ GitHub is a hosting platform for Git repositories that let us share our reposito
 * Push local branch to the remote github repository
 * Merge sub-branch into the main branch locally/remotely.
 
-## Creating a new GitHub repository
 
-
-
-
+[Click here for GitHub official "Get Started Guide"](https://docs.github.com/en/get-started/quickstart/hello-world#introduction)
