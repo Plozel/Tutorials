@@ -19,8 +19,8 @@ It allows us to manage projects, track changes to files, and go back to a specif
 git --version
 ```
 
-All is well if it returns details about your Git version.
-Otherwise, you probably need to install Git.
+All is well if it returns details about your Git version. <br>
+Otherwise, you probably need to install Git ([Click here for an installation guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git))
 
 #### <ins> Configuring Name & Email: <ins />
 
@@ -54,7 +54,7 @@ At this point, nothing in your project is tracked yet.
 
 ## Staging and committing code
 
-The git commit command creates a commit, which is like a snapshot of your repository. <br>
+The `git commit` command creates a commit, which is like a snapshot of your repository. <br>
 Commits should be made often, based on logical units of change. <br>
 Over time, commits should tell a story about the history of your repository and how it came to be the way it is now. <br>
 In addition to the content and message, commits include a lot of metadata, such as the author and timestamp. 
@@ -63,7 +63,7 @@ Before we'll start to commit our files we need to know a bit more.
   
 #### <ins> Inspecting a repository <ins />
 
-Git status displays the state of the working directory and staging area. <br>
+The `git status` commaned displays the state of the working directory and staging area. <br>
 You can see which changes have been staged (to stage a file is simply to prepare it finely for a commit),<br>
 which haven't, and which files aren't being tracked by Git.
 ```
@@ -71,20 +71,19 @@ git status
 ```
 
 #### <ins> Staging files: <ins />
-  
-From the project folder, we can use the `git add` command to add our files to the staging area, which allows them to be tracked. <br>
-We can add a specific file to the staging area with the following command: <br>
-
-Let's create a file for our example (you are welcome to use your own files).
+ 
+First, let's create a file to be used as an example (you are welcome to use your own files).
 ```
 touch jupy_nb.ipynb
 ```
+From the project folder, we can use the `git add` command to add our files to the staging area, which allows them to be tracked. <br>
+We can add a specific file to the staging area with the following command: <br>
 
-We can run now `git status` and see our new unstaged file
-  
 ```
 git add jupy_nb.ipynb
 ```
+We can run now `git status` and inspect our new unstaged file
+  
 Try to run `git status` again and see how the status had changed.
   
 Furthermore, you can list multiple files in order to add them all together, or you can use `git add .` to add all files in the repository into the staging area.
