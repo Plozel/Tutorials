@@ -7,9 +7,9 @@ It allows us to manage projects, track changes to files, and go back to a specif
 ## Common Git workflow
 
 * Initialize a repository
-* Create branches
 * Edit files
 * Add and commit changes
+* Create branches (optional)
 * Merge sub-branch into the main branch.
 
 ## Setup
