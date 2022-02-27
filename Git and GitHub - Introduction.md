@@ -74,13 +74,13 @@ git status
  
 First, let's create a file to be used as an example (you are welcome to use your own files).
 ```
-touch jupy_nb.ipynb
+touch jupy.ipynb
 ```
 From the project folder, we can use the `git add` command to add our files to the staging area, which allows them to be tracked. <br>
 We can add a specific file to the staging area with the following command: <br>
 
 ```
-git add jupy_nb.ipynb
+git add jupy.ipynb
 ```
 We can run now `git status` and inspect our new unstaged file
   
@@ -88,15 +88,16 @@ Try to run `git status` again and see how the status had changed.
   
 Furthermore, you can list multiple files in order to add them all together, or you can use `git add .` to add all files in the repository into the staging area.
   
-Now, before we do our first commit, run the following (We'll see why later):
-```
-git branch -m master main
-```
-
 Finally, we commit the files which are in the staging area:
   
 ```
 git commit -m "Commit message"
+```
+  
+  
+Now, to avoid confusion in the future, run the following to rename the branch name from "master" to "main" (since many remote VC platforms abandoned the "master" name):  
+```
+git branch -m master main
 ```
 
 #### <ins> Commit history <ins />
