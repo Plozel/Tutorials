@@ -1,15 +1,15 @@
 Getting started with remote Python programming with JupyterLab and Conda
 =================
 
-The following tutorial will walk you through the preparations you need to make to work with Python on the linux server of our lab using Conda and the JupyterLab IDE.
+The following tutorial will walk you through the preparations you need to make to work with Python on a linux server using Conda and the JupyterLab IDE.
 Let's get started  :hatching_chick:
 
 #### <ins>Connecting to the server: <ins />
 
-Open the terminal and connect to the lab's server with your user through ssh:
+Open the terminal and connect to a server with your user through ssh:
 
 ```
-ssh username@132.68.111.84
+ssh username@111.11.111.11
 ```
 
 <img src="misc/images/conda.png" width="40%" height="40%">
@@ -158,6 +158,7 @@ Some of LSP features:
 ```
 conda install -c conda-forge 'jupyterlab>=3.0.0,<4.0.0a0' jupyterlab-lsp
 ```
+  
 ```
 pip install 'python-lsp-server[all]'
 R -e 'install.packages("languageserver")'
@@ -215,6 +216,6 @@ Congratulation! you finished setting up your remote host for Python programming 
 
 Now you can access your server from your local computer through:
 (change 1234 to your port number) <br />
-`http://132.68.111.84:1234/lab/`
+`http://111.11.111.11:1234`
 
 # <ins> FAQ: <ins />
