@@ -1,3 +1,5 @@
+**Please note:** This tutorial is a bit dated. I recommend using [Visual Studio Code](https://code.visualstudio.com/) with the [Remote Development extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack) for remote Python programming, instead of JupyterLab. However, the concepts and instructions in this tutorial for using JupyterLab and Conda are still valid and can be useful for those who prefer to use those tools.
+
 Getting started with remote Python programming with JupyterLab and Conda
 =================
 
